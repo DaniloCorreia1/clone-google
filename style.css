@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    padding:2px 20px;
+    height: 60px;
+    background-color:#202124;
+    align-items: center;
+
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    
+}
+.options{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+li a {
+    margin-right: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    transition: text-decoration 0.3s; 
+}
+
+li a:hover {
+    text-decoration: underline; 
+}
+.caixaselecao {
+    display: flex;
+    justify-content: center;
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 18px;
+    border-radius: 50px; /* Valor de border-radius para criar uma forma redonda */
+    overflow: hidden; /* Certifique-se de que o conteúdo dentro da caixa seja cortado para manter a forma redonda */
+    transition: background-color 0.3s; /* Adicionando uma transição suave na cor de fundo */
+}
+
+.caixaselecao:hover {
+    background-color: #4343449d; /* Cor de fundo ao passar o mouse para iluminar */
+}
+.login{
+    display: flex;
+    margin: 3px;
+    width: 30px;
+    height:30px;
+
+}
+body{
+    background-color: #202124;
+}
+#meio{
+    display: flex;
+    flex-direction: column;
+    height: 790px;
+    justify-content: center;
+}
+.collumn{
+    display: flex;
+    flex-direction: column;
+ }
+ .meio1{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+ }
+.google{
+    display: flex;
+    width: 500px;
+    height: 200px;
+  
+}
+.barra {
+    display: flex;
+    width: 554px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 30px;
+    margin: 30px;
+    color: #5a5d66;
+    border-radius: 50px; /* Valor de border-radius para criar uma forma redonda */
+    overflow: hidden; /* Certifique-se de que o conteúdo dentro da caixa seja cortado para manter a forma redonda */
+    transition: background-color 0.3s; /* Adicionando uma transição suave na cor de fundo */
+ 
+}
+.barra:hover {
+    background-color: #4343449d; /* Cor de fundo ao passar o mouse para iluminar */
+}
+.search-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    fill: #333; /* Cor do ícone da lupa */
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+input{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+
+textarea{
+    background-color: transparent;
+    color: white; /* Cor do texto como branco */
+    border: none;
+    outline: none;
+    resize: none; /* Opcional: impede o redimensionamento */
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 400px;
+
+}
+.itens img{
+    display: flex;
+    width: 110px;
+    height: 40px;
+    margin-left: -25px;
+    margin-top: 5px;
+
+}
+.bot {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 30px;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #38393a; /* Cor de fundo azul */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    border: none; /* Remove a borda padrão */
+}
+
+
+ .meio2{
+    flex: 1;
+    
+ }
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(26, 25, 25);
+    align-items: center;
+    
+}
+.rodape p{
+    display: flex;
+    color: #e8eaed;
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+.rodape p:hover {
+    text-decoration: underline;
+}
+.rodape2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 47px;
+    background-color: rgb(26, 25, 25);
+    border-top: solid 1px #585656;
+    font-size: small;
+}
+
+.roda,
+.roda2 {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    color: #e8eaed;
+    font-size: 15px;
+    padding: 0 20px; /* Adiciona preenchimento horizontal */
+}
+
+.roda ul,
+.roda2 ul {
+    display: flex;
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.roda li,
+.roda2 li {
+    margin-right: 40px; /* Adiciona espaçamento entre os itens */
+}
+
+.roda li:last-child,
+.roda2 li:last-child {
+    margin-right: 0; /* Remove o espaçamento à direita do último item */
+}
+
+.roda li:hover,
+.roda2 li:hover {
+    text-decoration: underline;
+}
